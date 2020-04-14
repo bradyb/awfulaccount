@@ -3,7 +3,7 @@ import pandas
 
 if __name__ == "__main__":
 
-    users = ["doncicthegoat", "bussydouche"]
+    users = []
     tweet_files = ["dump/" + user + ".csv" for user in users]
 
     for index, user in enumerate(users):
